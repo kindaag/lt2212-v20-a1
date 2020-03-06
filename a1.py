@@ -93,6 +93,7 @@ def part2_vis(df, m):
     ax = df3.plot.bar(rot=0)
     ax.legend(title='class name')
 
+    return ax
 
 def part3_tfidf(df):
     assert isinstance(df, pd.DataFrame)
