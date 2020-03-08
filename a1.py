@@ -69,7 +69,7 @@ def part1_load(folder1, folder2, n=100):
     return df2
 
 
-my_df = part1_load('crude', 'grain')
+# my_df = part1_load('crude', 'grain')
 
 
 def part2_vis(df, m):
@@ -127,8 +127,8 @@ def part3_tfidf(df):
 
 
 # part4
-my_new_df = part3_tfidf(my_df)
-part2_vis(my_new_df, 10)
+# my_new_df = part3_tfidf(my_df)
+# part2_vis(my_new_df, 10)
 
 
 def part_bonus(df):
@@ -149,4 +149,4 @@ def part_bonus(df):
     return "Accuracy:", accuracy_score(target_test, predict, normalize=True)
 
 
-print(part_bonus(my_new_df))
+# print(part_bonus(my_new_df))
